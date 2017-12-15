@@ -39,10 +39,10 @@ nav span {
   padding-right: 2rem;
 }
 .banner {
-  text-align: right;
-  position: relative;
-  top: 10rem;
-  left: 2rem;
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 10rem;
+  margin-right: -2rem;
 }
 .banner span {
   background-color: white;
@@ -102,4 +102,11 @@ nav span {
 .footer img {
   height: 1.5rem;
   padding-right: 1rem;
+}
+/* Tablet mode */
+@media only screen and (max-width: 1024px) {
+  /* Header */
+  .main {
+    height: 22rem;
+  }
 }
