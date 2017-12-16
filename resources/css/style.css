@@ -8,6 +8,9 @@ html {
   max-width: 960px;
   margin: 0 auto;
 }
+* {
+  box-sizing: border-box;
+}
 /* Header */
 header {
   background-repeat: no-repeat;
@@ -108,5 +111,25 @@ nav span {
   /* Header */
   .main {
     height: 22rem;
+    padding: 0;
+  }
+  .container {
+    max-width: 100%;
+  }
+  .banner {
+    margin-top: 5rem;
+    margin-right: 2rem;
+  }
+  .banner span {
+    padding-left: 0.75rem 4rem;
+    font-size: 1.33rem;
+  }
+  /* images */
+  .items {
+    justify-content: center;
+  }
+  /* Text content */
+  .text-items {
+    justify-content: center;
   }
 }
