@@ -30,9 +30,7 @@ header {
   color: white;
   padding: 1rem 0;
 }
-.mobile {
-  display: none;
-}
+
 #logo {
   display: flex;
   align-items: center;
@@ -108,6 +106,12 @@ nav span {
 .footer img {
   height: 1.5rem;
   padding-right: 1rem;
+}
+/* Laptop */
+@media only screen and (max-width: 1920px){
+  .mobile {
+    display: none;
+  }
 }
 /* Tablet mode */
 @media only screen and (max-width: 1024px) {
